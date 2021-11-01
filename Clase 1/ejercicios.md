@@ -32,7 +32,7 @@ Se Require;
 
 5. Que la salida por consola sea en formato json, para esto se debera utilizar la librería org.json.
 
-6. Usar lombok
+6. Usar lombok, builder
 
 ### Enunciado 2:
 #### Número capicúa
