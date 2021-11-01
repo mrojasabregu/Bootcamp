@@ -1,39 +1,42 @@
 # Bootcamp
-Bootcamp 2021
 
 
-temas del curso
+## Temas
 
-# Spring boot microservices
-- ¿Que es?
+### Spring boot microservices
+- ¿Qué es?
 - Set up environment
 - Intellij
 - Git workflow
-- Craer proyecto spring inicializer
+- Crear proyecto spring inicializer
 
-# Introduccion a microservicios
+### Introducción a microservicios
 - Intro
-- Monolitic vs microservices
+- Monolito vs microservices
 - Microservices architecture
 
-# Restful
+### Restful
 - Http protocol
 - Http request
-- REST 
+- REST
 - Spring framework & RESTFul services
 - Postman
 - GET, POST,PUT, DELETE
 - Validation
 - Lombok
 
-# Data base
+### Data base
 - Mysql
 - Redis
 - Docker
 - Hibernate
 - Jpa
 
-# Testing
+### Testing
 - Unit test, integration test, smoke test, definicion
 - Unit test von JUnit
 - Mockito
+
+### Metodología ágiles
+- Scrum
+
