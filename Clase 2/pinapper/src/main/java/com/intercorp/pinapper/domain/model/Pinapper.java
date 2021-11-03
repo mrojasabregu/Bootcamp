@@ -1,4 +1,4 @@
-package com.intercorp.pinapper.domain;
+package com.intercorp.pinapper.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

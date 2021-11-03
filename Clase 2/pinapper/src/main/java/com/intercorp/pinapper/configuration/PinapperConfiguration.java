@@ -1,6 +1,6 @@
 package com.intercorp.pinapper.configuration;
 
-import com.intercorp.pinapper.domain.Pinapper;
+import com.intercorp.pinapper.domain.model.Pinapper;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
