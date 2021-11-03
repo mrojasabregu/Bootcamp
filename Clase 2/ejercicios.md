@@ -38,7 +38,8 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
 
 
 ### Acceptance Criteria
-1. Crear el swagger de los endpoints que se van a implementar
+1. Crear nuevo repo llamado `spotify-service`
+2. Crear el swagger de los endpoints que se van a implementar
     - POST /artist
     - PUT /artist/{artistId}
     - GET /artist/{artistId}
@@ -56,6 +57,7 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
    - GET /GetPopularArtist
    - GET /GetTopPopularTracks
     
-2. Crear un nuevo proyecto llamado spotify
-3. Realizar la implementacion con springboot
+3. Crear un nuevo proyecto llamado spotify-service 
+4. Realizar la implementacion con springboot
+5. Crear pull request 
 
