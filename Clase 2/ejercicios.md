@@ -54,6 +54,7 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
    - GET /spotify/play/track/{trackId}
    - GET /GetPopularSongsByArtist/{artistId}
    - GET /GetPopularArtist
+   - GET /GetTopPopularTracks
     
 2. Crear un nuevo proyecto llamado spotify
 3. Realizar la implementacion con springboot
