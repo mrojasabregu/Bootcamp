@@ -34,15 +34,15 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
 #### GET /spotify/play/track/{trackId}
 Incrementar el reproduction en uno, para luego realizar las metricas de cada cancion.
  
-#### GET /GetPopularSongsByArtist/{artistId}
+#### GET /artist/{artistId}/songs/rank
 Devolver el top 5 de canciones populares del artista.
 
 
-#### GET /GetPopularArtist
+#### GET /artist/rank
 Devolver el top 5 de artistas populares.
 
 
-#### GET /GetTopPopularTracks
+#### GET /track/rank
 Devolver el top 5 de canciones populares.
 
 
@@ -72,9 +72,9 @@ Devolver el top 5 de canciones populares.
    - GET /track/{trackId}
    - DELETE /track/{artistId}
    - GET /spotify/play/track/{trackId}
-   - GET /GetPopularSongsByArtist/{artistId}
-   - GET /GetPopularArtist
-   - GET /GetTopPopularTracks
+   - GET /artist/{artistId}/songs/rank
+   - GET /artist/rank
+   - GET /track/rank
     
 3. Crear un nuevo proyecto llamado spotify-service.
 4. Realizar la implementacion con springboot.
