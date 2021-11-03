@@ -51,7 +51,7 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
    - PUT /track/{trackId}
    - GET /track/{trackId}
    - DELETE /track/{artistId}
-   - GET /spotify/play/song/{songId}
+   - GET /spotify/play/track/{trackId}
    - GET /GetPopularSongsByArtist 
    - GET /GetPopularArtist
     
