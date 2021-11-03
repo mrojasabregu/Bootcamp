@@ -52,7 +52,7 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
    - GET /track/{trackId}
    - DELETE /track/{artistId}
    - GET /spotify/play/track/{trackId}
-   - GET /GetPopularSongsByArtist 
+   - GET /GetPopularSongsByArtist/{artistId}
    - GET /GetPopularArtist
     
 2. Crear un nuevo proyecto llamado spotify
