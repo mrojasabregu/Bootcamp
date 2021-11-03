@@ -31,9 +31,21 @@ Un cliente nos ha solicitado crear servicios similar a Spotify.
  -   duration
 
 
-1. GET /spotify/play/song/{songId}
-2. GET GetPopularSongsByArtist, :idArtista
-3. GET GetPopularArtist
+#### GET /spotify/play/track/{trackId}
+Incrementar el reproduction en uno, para luego realizar las metricas de cada cancion.
+ 
+#### GET /GetPopularSongsByArtist/{artistId}
+Devolver el top 5 de canciones populares del artista.
+
+
+#### GET /GetPopularArtist
+Devolver el top 5 de artistas populares.
+
+
+#### GET /GetTopPopularTracks
+Devolver el top 5 de canciones populares.
+
+
 
 
 
