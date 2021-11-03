@@ -53,9 +53,12 @@ Devolver el top 5 de canciones populares.
 1. Usar lombok.
 2. Usar streams.
 3. Usar optional.
-4. Crear collection en postman.
-5. Crear nuevo repo llamado `spotify-service`
-6. Crear el swagger de los endpoints que se van a implementar
+4. Usar Validator.
+6. Crear collection en postman.
+7. Crear adviceController
+8. Crear exceptions custom
+9. Crear nuevo repo llamado `spotify-service`
+10. Crear el swagger de los endpoints que se van a implementar
     - POST /artist
     - PUT /artist/{artistId}
     - GET /artist/{artistId}
@@ -73,7 +76,8 @@ Devolver el top 5 de canciones populares.
    - GET /GetPopularArtist
    - GET /GetTopPopularTracks
     
-3. Crear un nuevo proyecto llamado spotify-service 
-4. Realizar la implementacion con springboot
-5. Crear pull request 
+3. Crear un nuevo proyecto llamado spotify-service.
+4. Realizar la implementacion con springboot.
+5. Crear pull request.
+6. Crear interfaces para cada servicio.
 
