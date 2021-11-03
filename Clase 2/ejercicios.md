@@ -50,8 +50,12 @@ Devolver el top 5 de canciones populares.
 
 
 ### Acceptance Criteria
-1. Crear nuevo repo llamado `spotify-service`
-2. Crear el swagger de los endpoints que se van a implementar
+1. Usar lombok.
+2. Usar streams.
+3. Usar optional.
+4. Crear collection en postman.
+5. Crear nuevo repo llamado `spotify-service`
+6. Crear el swagger de los endpoints que se van a implementar
     - POST /artist
     - PUT /artist/{artistId}
     - GET /artist/{artistId}
