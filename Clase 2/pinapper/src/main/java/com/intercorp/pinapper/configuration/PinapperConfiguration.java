@@ -12,7 +12,7 @@ public class PinapperConfiguration {
 
     @Bean(name = "pinappers")
     public List<Pinapper> getPinnapers(){
-        return Arrays.asList(Pinapper.builder().id(2L).name("Maria").lastName("Gomez").build(),Pinapper.builder().id(4L).name("Agustin").lastName("Diaz").build(),Pinapper.builder().id(3L).name("Miguel").lastName("Perez").build());
+        return Arrays.asList(Pinapper.builder().id(1L).name("Maria").lastName("Gomez").build(),Pinapper.builder().id(2L).name("Agustin").lastName("Diaz").build(),Pinapper.builder().id(3L).name("Miguel").lastName("Perez").build());
     }
 
 }
