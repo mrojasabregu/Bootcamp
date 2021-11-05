@@ -71,6 +71,7 @@ public class PinapperService implements IPinapperService {
         Pinapper pinapper = null;
         if (pinapperRepository.findById(id) != null) {
             pinapper = pinapperMapper.apply(request);
+            pinapper.setId(id);
             pinapperRepository.save(pinapper);
         } else {
             log.error("El Pinnaper NO existe");
