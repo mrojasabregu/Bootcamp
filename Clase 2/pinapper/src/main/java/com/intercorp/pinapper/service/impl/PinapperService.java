@@ -12,6 +12,7 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.PostConstruct;
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -47,7 +48,7 @@ public class PinapperService implements IPinapperService {
     }
 
     public List<Pinapper> getPinappers() {
-        return (List<Pinapper>) pinapperMap.values();
+        return new ArrayList<>(pinapperMap.values()) ;
     }
 
     public Pinapper createPinapper(PinapperRequest request) {
