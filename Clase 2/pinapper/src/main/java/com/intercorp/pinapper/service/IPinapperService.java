@@ -9,7 +9,7 @@ public interface IPinapperService {
 
     Pinapper getPinapper(Long id);
 
-    List<Pinapper> getPinappers();
+    Iterable<Pinapper> getPinappers();
 
     Pinapper createPinapper(PinapperRequest request);
 
